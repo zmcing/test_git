@@ -12,4 +12,9 @@ public class HelloController {
         System.out.println("test02");
         return "Hello ";
     }
+
+    @RequestMapping("/getName")
+    public String getName(){
+        return "test";
+    }
 }
